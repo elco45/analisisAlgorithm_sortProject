@@ -54,7 +54,7 @@ public class Sorts {
                     + "3. 1000\n"
                     + "4. 10000\n"
                     + "5. 100000\n"
-                    + "6. 1000000\n");
+                    + "6. 1000000");
             resp = sc.nextInt();
             if (resp == 1) {
                 return 10;
@@ -146,6 +146,7 @@ public class Sorts {
                 System.out.println((double) (System.nanoTime() - cont) / 1000000000);
             }
         }
+        System.out.println("");
     }
 
     public static void shuffleArray(int[] ar) {
